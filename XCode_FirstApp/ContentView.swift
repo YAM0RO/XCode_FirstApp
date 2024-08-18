@@ -13,10 +13,10 @@ struct ContentView: View {
             GroupBox() {
                 Image(systemName: "person.crop.circle")
                     .imageScale(.large)
-                
+                Divider()
                 Text("Name Example")
                     .bold()
-                Text("Email")
+                Text("email")
                 Text("Phone")
             }
                 
