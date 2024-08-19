@@ -16,8 +16,14 @@ struct ContentView: View {
                 Divider()
                 Text("Name Example")
                     .bold()
+                    .padding(.top, 1.0)
                 Text("email")
+                    .padding(.top, 1.0)
                 Text("Phone")
+                    
+            }
+            GroupBox(){
+                
             }
                 
         }
